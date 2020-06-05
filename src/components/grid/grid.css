@@ -1,0 +1,39 @@
+.board .grid {
+    display: inline-block;
+
+    width: calc(100%/3 - 10px);
+    height: calc(100%/3 - 10px);
+
+    /* border: 1px solid #999; */
+    border-radius: 14px;
+    background-color: #AFA7B6;
+    position: relative;
+    margin: 5px;
+    cursor: pointer;
+    /* width: 100%; */
+    /* float: left; */
+    transition: all ease 0.5s;
+}
+
+.board .grid:hover {
+    background-color: #9875b7;
+}
+
+.board .grid-icon {
+    top: 50%;
+    width: 100%;
+    position: absolute;
+    font-size: 45px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* text-shadow: 2px 2px 2px rgba(0,0,0,0.2); */
+    color: white;
+}
+
+.board .grid.player1 {
+    background-color: #55922f;
+}
+
+.board .grid.player2 {
+    background-color: #c74b7f;
+}
