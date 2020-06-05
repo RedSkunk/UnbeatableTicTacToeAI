@@ -11,4 +11,4 @@ Hosted at:
 
 # Screenshots
 
-![](./screenshots/1.png)
+<img src="./screenshots/1.png" width="70%">
