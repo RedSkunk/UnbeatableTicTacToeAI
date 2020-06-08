@@ -2,7 +2,7 @@
 
 Unbeatable tic tac toe ai 
 
-Hosted at:
+Hosted at: http://tictactoeai-env.eba-mnu4smaz.us-east-2.elasticbeanstalk.com/
 
 # Technology
 
