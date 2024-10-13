@@ -228,19 +228,18 @@ class TicTacToeGame {
                     }
                 }
             }
+            return this.getRandomCornersThenEdges();
         } else { // ai move second
             if (this.board[4] === 0) {
                 return 4;
             }
-            // if (this.board[4] === HUMAN_PLAYER_ID) {
-            //     return this.getRandomCornersThenEdges();
-            // }
-            // if (this.board[4] === AI_PLAYER_ID) {
-            //     return this.getRandomEdgesThenCorners();
-            // }
+            if (this.board[4] === HUMAN_PLAYER_ID) {
+                return this.getRandomCornersThenEdges();
+            }
+            if (this.board[4] === AI_PLAYER_ID) {
+                return this.getRandomEdgesThenCorners();
+            }
         }
-
-        return this.getRandomCornersThenEdges();
     }
 
 }
